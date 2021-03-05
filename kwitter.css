@@ -1,0 +1,47 @@
+#background{
+    top:0;
+    background: repeating-linear-gradient(red, green, pink, yellow,grey);
+   
+    
+}
+#background1{
+    margin-top:30px;
+    background: repeating-linear-gradient(red, green, pink, yellow,grey);
+   
+    
+}
+#user_name, #room_name{
+    border-color:blue;
+    border-width: 5px;
+    background-color: burlywood;
+
+}
+#image {
+    height:300px;
+    width:300px;
+    border-radius: 50%;
+    border-style:solid;
+     border-color:navy;
+     border-width:5px;
+  
+
+}
+#image1{
+    height:300px;
+    width:300px;
+    border-radius: 50%;
+    border-style:solid;
+     border-color:navy;
+     border-width:5px;
+     
+
+}
+
+.contact_1{
+    
+   border:brown;
+   border-width: 10px;
+   border-style:groove;
+   background-color: chartreuse;
+    
+}

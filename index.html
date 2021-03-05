@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Kwiter</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+	<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<link rel="stylesheet" type="text/css" href="kwitter.css">
+	<script src="kwitter.js"></script>
+</head>
+
+<body id="background">
+
+	<center>
+		<h1 class="header">
+			Kwitter <sup>
+				<img src="m2.png">
+			</sup>
+		</h1>
+	</center>
+
+
+	<div class="container">
+		<center>
+			<div class="row">
+				<div class="col-sm-3">
+
+					<img id="image" src="https://abs.twimg.com/a/1612984890/img/delight/delight_prompt_3.png">
+				</div>
+				<div class="col-sm-6" login_div>
+
+					<img src="logo.png" class="logo">
+
+					<h3>See what is happening in the world right now</h3>
+					<h4>Join Kwitter today</h4>
+					<div class="form-group">
+						<label>User Name:</label>
+						<input type="text" id="user_name" class="form-control" placeholder="User Name">
+					</div>
+
+					<button id="login_button" class="btn btn-primary" onclick="addUser()">Log in</button>
+
+				</div>
+				<div class="col-sm-3">
+					<img id="image"
+						src="https://www.disruptivestatic.com/wp-content/uploads/2018/03/Direct-Message.jpg">
+				</div>
+			</div>
+
+			<section id="contact">
+				<div class="page-header" id="contact_school">
+					<h2 class="text-capitalize header">Contact</h2>
+				</div>
+
+				<br>
+
+				<div class="row">
+					<div class="contact_1 col-sm-12">
+						<a href="kwitter@gmail.com<?Subject=Hi">
+							<h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;kwitter@gmail.com</h5>
+						</a>
+
+						<a href="#">
+							<h5><i class="fa fa-instagram"></i>&nbsp;&nbsp;kwitterinstagramid</h5>
+						</a>
+
+						<form>
+							<span>Name: </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text"
+								name="name" required><br><br>
+							<span>Comment: </span>&nbsp;&nbsp;&nbsp;<input type="text" name="comment" required><br><br>
+							<input type="submit" value="SUBMIT" class="btn btn-success">
+						</form>
+					</div>
+				</div>
+			</section>
+		</center>
+	</div>
+
+
+
+
+</body>
+
+</html>
